@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -e
+
+docker login -u philmmjr
+docker push manjarolinux/darch-manjaro
